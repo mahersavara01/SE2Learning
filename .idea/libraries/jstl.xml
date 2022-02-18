@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jstl" type="repository">
+    <properties maven-id="jstl:jstl:1.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/LocalDisk D-Work/Linh(System)/CNTT/Spring 2022/SE2/Resources/jstl-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BookWeb_Ver1_JSP_ServerLet:war">
+    <output-path>$PROJECT_DIR$/BookWeb_Ver1_JSP_ServerLet/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>BookWeb_Ver1_JSP_ServerLet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BookWeb_Ver1_JSP_ServerLet-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="BookWeb_Ver1_JSP_ServerLet:war exploded" />
+    </root>
+  </artifact>
+</component>

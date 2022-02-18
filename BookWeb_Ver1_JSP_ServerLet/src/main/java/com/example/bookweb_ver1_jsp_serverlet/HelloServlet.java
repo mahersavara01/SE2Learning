@@ -1,0 +1,32 @@
+package com.example.bookweb_ver1_jsp_serverlet;
+
+import jakarta.servlet.*;
+import jakarta.servlet.annotation.*;
+import jakarta.servlet.http.*;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+@WebServlet(name = "helloServlet", value = "/hello-servlet")
+public class HelloServlet extends HttpServlet {
+    private String message;
+
+    public void init() {
+        message = "Hell World!";
+    }
+
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        response.setContentType("text/html");
+
+        // Hello
+        PrintWriter out = response.getWriter();
+        out.println("<html><body>");
+        out.println("<h1>" + message + "</h1>");
+        out.println("<h2> this world is too big for the small Hobbits us");
+
+        out.println("</body></html>");
+    }
+
+    public void destroy() {
+    }
+}

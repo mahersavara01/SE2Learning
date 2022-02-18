@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BookWeb_Ver1_JSP_ServerLet:war exploded">
+    <output-path>$PROJECT_DIR$/BookWeb_Ver1_JSP_ServerLet/target/BookWeb_Ver1_JSP_ServerLet-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>BookWeb_Ver1_JSP_ServerLet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BookWeb_Ver1_JSP_ServerLet" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/BookWeb_Ver1_JSP_ServerLet/target/BookWeb_Ver1_JSP_ServerLet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="BookWeb_Ver1_JSP_ServerLet/web/Web" />
+    </root>
+  </artifact>
+</component>
